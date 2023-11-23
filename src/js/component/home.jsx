@@ -6,17 +6,25 @@ import Card from './card.js';
 const Home = () => {
 	return (
 		<div className="text center Container-fluid">
-			<Navbar/>
+			<Navbar />
 			<div className="container">
-				<Jumbotron/>
-				<div className="">
-			 		<Card/>
-					<Card/>
-					<Card/>
-					<Card/>
+				<Jumbotron />
+				<div class="row">
+					<div class="col">
+						<Card />
+					</div>
+					<div class="col">
+						<Card />
+					</div>
+					<div class="col">
+						<Card />
+					</div>
+					<div class="col">
+						<Card />
+					</div>
 				</div>
 			</div>
-			<Footer/>
+			<Footer />
 		</div>
 	);
 };
