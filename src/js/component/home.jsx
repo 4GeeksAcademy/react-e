@@ -5,21 +5,21 @@ import Jumbotron from './jumbotron.js';
 import Card from './card.js';
 const Home = () => {
 	return (
-		<div className="text center Container-fluid">
-			<Navbar />
+		<div className="text center Container-fluid ">
+			<Navbar /> 
 			<div className="container">
 				<Jumbotron />
-				<div class="row">
+				<div className="row">
 					<div class="col">
 						<Card />
 					</div>
-					<div class="col">
+					<div className="col">
 						<Card />
 					</div>
-					<div class="col">
+					<div className="col">
 						<Card />
 					</div>
-					<div class="col">
+					<div className="col">
 						<Card />
 					</div>
 				</div>
