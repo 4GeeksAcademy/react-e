@@ -5,28 +5,25 @@ import Jumbotron from './jumbotron.js';
 import Card from './card.js';
 const Home = () => {
 	return (
-		<div className="text center Container-fluid ">
-			<Navbar /> 
-			<div className="container">
-				<Jumbotron />
-				<div className="row">
-					<div class="col">
-						<Card />
-					</div>
-					<div className="col">
-						<Card />
-					</div>
-					<div className="col">
-						<Card />
-					</div>
-					<div className="col">
-						<Card />
-					</div>
+		<div className="container">
+			<Navbar />
+			<Jumbotron />
+			<div className="row m-1">
+				<div className="col-sm-12 col-md-6 col-lg-3  ">
+					<Card />
+				</div>
+				<div className="col-sm-12 col-md-6 col-lg-3  ">
+					<Card />
+				</div>
+				<div className="col-sm-12 col-md-6 col-lg-3  ">
+					<Card />
+				</div>
+				<div className="col-sm-12 col-md-6 col-lg-3  ">
+					<Card />
 				</div>
 			</div>
 			<Footer />
 		</div>
 	);
 };
-
 export default Home;
